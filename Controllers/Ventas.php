@@ -134,7 +134,8 @@ class Ventas extends Controller
         }
         echo json_encode($msg);
         die();
-    }
+    } 
+    // juAJUa
     public function historial()
     {
         $data['permisos'] = $this->model->verificarPermisos($this->id_usuario, "reporte_pdf_ventas");
